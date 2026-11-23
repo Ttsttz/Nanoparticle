@@ -278,7 +278,7 @@ function searchGene() {
 
         probes.forEach(probe => {
             const cleanProbe = String(probe).trim();
-            const pdfURL = "https://tibspdf.chengfeng.info/PDF/" + encodeURIComponent(cleanProbe) + ".pdf";
+            const pdfURL = "PDF/" + encodeURIComponent(cleanProbe) + ".pdf";
 
             currentMatches.push({
                 gene: displayGene,
